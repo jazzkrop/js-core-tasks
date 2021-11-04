@@ -1,7 +1,1 @@
-export { default as drawTable } from './drawTable.js'
-export { default as getAnchors } from './getAnchors.js'
-export { default as getNumberOfBombsAround } from './getNumberOfBombsAround.js'
-export { default as makeField } from './makeField.js'
-export { default as gameOver } from './gameOver.js'
-export { default as activateSelf } from './activateSelf.js'
-export { default as activateNeighbors } from './activateNeighbors.js'
+export { default as  } from './'
