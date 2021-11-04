@@ -56,3 +56,4 @@ table.addEventListener('click', (event) => {
     }
   }
 })
+// TODO: make winning screen
