@@ -3,6 +3,7 @@ import { activateNeighbors, getNumberOfBombsAround } from "./index.js"
 function activateSelf(field, i, j) {
   let thisElement = document.querySelector('table').rows[i].cells[j]
   thisElement.classList.remove('cell-start')
+  thisElement.classList.remove('cell-click-flag')
   thisElement.classList.add('cell-click-safe')
 
   if (getNumberOfBombsAround(field, i, j) != 0) {

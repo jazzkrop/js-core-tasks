@@ -33,3 +33,17 @@
    background-color: rgb(119, 255, 130);
    pointer-events: none;
  }
+ .cell-click-flag {
+
+ }
+ .cell-click-flag:before {
+   content: '🚩';
+   font-size: 24px;
+   width: 30px;
+   height: 30px;
+   text-align: center;
+   line-height: 30px;
+   left: calc(50% - 15px);
+   top: calc(50% - 15px);
+   opacity: 0.7;
+ }
